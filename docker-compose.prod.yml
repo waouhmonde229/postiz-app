@@ -84,6 +84,17 @@ services:
       MASTODON_CLIENT_ID: ${MASTODON_CLIENT_ID:-}
       MASTODON_CLIENT_SECRET: ${MASTODON_CLIENT_SECRET:-}
 
+      # === Email Settings (vide : aucun email, pas d'activation de compte)
+      EMAIL_PROVIDER: ${EMAIL_PROVIDER:-}
+      EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-}
+      EMAIL_FROM_ADDRESS: ${EMAIL_FROM_ADDRESS:-}
+      EMAIL_HOST: ${EMAIL_HOST:-}
+      EMAIL_PORT: ${EMAIL_PORT:-}
+      EMAIL_SECURE: ${EMAIL_SECURE:-}
+      EMAIL_USER: ${EMAIL_USER:-}
+      EMAIL_PASS: ${EMAIL_PASS:-}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+
       # === Misc Settings
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       OPENAI_OAUTH_CLIENT_ID: ${OPENAI_OAUTH_CLIENT_ID:-}
